@@ -18,11 +18,10 @@ header{
 }
 
 .main-content{
-    position: relative;
     width: 100%;
-    display:flex;
     border: 1px solid black;
     margin: 0;
+    display:flex;
     justify-content: space-between;
     padding:0
 }
