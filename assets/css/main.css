@@ -17,6 +17,10 @@ body{
     padding-left: 0;
 } */
 
+header img{
+    margin-left: 1px;
+}
+
 .header-nav{
     margin: 10px auto;
     display:table;
@@ -24,6 +28,23 @@ body{
     /* text-align: justify; */
     /* border-top: solid black 1px; */
     /* border-bottom: solid black 1px; */
+}
+
+
+.company-color {
+    background-color: darkred;
+    color: white; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.li {
+    background-image: url(arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 100% .4em;
+    padding-right: .6em;
+    margin: 1em 0;
 }
 
 .header-nav ul{
@@ -101,6 +122,7 @@ a:hover {
     margin: 0 auto;
     position: fixed;
     padding-left: 10px;
+
 }
 .right-box {
     width: 900px;
@@ -113,7 +135,7 @@ a:hover {
 
 .company-color {
     background-color: darkred;
-    color: white;
+    color: grey;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-align: left;
