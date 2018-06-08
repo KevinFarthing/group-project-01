@@ -1,27 +1,24 @@
 body{
-    padding:0;
+    padding:0 50px;
     margin: 0 auto;
     background: url(http://nzalaw.com/images/nza_background.jpg);
 }
 
 #main{
-    margin: 0 auto;
+    margin: 0 auto 50px;
     width: 940px;
     padding: 20px;
     background:white;
     box-shadow: 0 0 15px black;
+    min-height: 900px;
     
 }
 
-header{
-    /* Nothing */
-}
 
 .main-content{
     position: relative;
     width: 100%;
     display:flex;
-    border: 1px solid black;
     margin: 0;
     justify-content: space-between;
     padding:0
@@ -70,10 +67,33 @@ header{
 
 
 .content-right{
-    width: 200px;
-    padding: 1em;
     background:#D7CEC5;
+    padding: .5em;
 }
 
+.content-right ul{
+    padding: 0;
+    font-size: .75em;
+    margin-left:
+}
 
+.content-right ul img{
+    margin: auto;
+}
+.caption{
+    margin-top: 1em;
+    margin: auto;
+}
 
+.navbar{
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between
+}
