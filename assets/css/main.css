@@ -7,5 +7,41 @@ body{
     height: 90vh;
     margin: auto;
     box-shadow: 0 0 10px 5px gray;
+}
 
+.header-nav{
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    display: block;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul li {
+    /* float: left; */
+    /* ^^^also gets line items to display horizontally */
+    display:table-cell;
+    text-align: center;
+
+}
+
+.header-nav ul li a {
+    display: block;
+    color: black;
+    margin: 1em;
+
+}
+
+.header-nav ul li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
 }
