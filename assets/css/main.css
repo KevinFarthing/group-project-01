@@ -1,3 +1,14 @@
+:root{
+    --hover-link: rgb(129, 38, 5);
+
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
 body{
     padding:0 50px;
     margin: 0 auto;
@@ -7,35 +18,78 @@ body{
 #main{
     margin: 0 auto 50px;
     width: 940px;
-    padding: 20px;
+    padding: 50px;
     background:white;
     box-shadow: 0 0 15px black;
     min-height: 900px;
     
 }
+.logo{
+    padding: 2em 0 2em 2em
+}
 
+nav{
+    position: relative;
+    height: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
 
+nav ul{
+    position: relative;
+    top: 3px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    position: relative;
+    display: inline;
+}
+
+.seperator::before{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width:1px;
+    background: lightgray;
+    left:-40px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: var(--hover-link);
+}
 .main-content{
     width: 100%;
     display:flex;
     margin: 0;
-    display:flex;
     justify-content: space-between;
     padding:0
 }
 
-
-.sidebar{
-    color: white;
-    width: 200px;
-    padding: 1em;
-    background: #6B2A28;
+.content-homepage{
+    width:auto;
+    padding-right: 20px
 }
 
-
 .sidebar ul{
+    background: #6B2A28;
+    width: 225px;
     list-style: none;
-    padding:0;
+    padding:1em;
+    color: white;
+    min-height: 350px;
 }
 
 .sidebar-link{
@@ -64,9 +118,19 @@ body{
     width:366px;
 }
 
+.content-center a{
+    color: inherit;
+    text-decoration: underline;
+    
+}
+.content-center a:hover{
+    color: var(--hover-link);
+
+}
 
 
 .content-right{
+    position: relative;
     background:#D7CEC5;
     padding: .5em;
 }
@@ -74,26 +138,11 @@ body{
 .content-right ul{
     padding: 0;
     font-size: .75em;
-    margin-left:
+    position: relative;
+    left: 5px;
 }
 
-.content-right ul img{
-    margin: auto;
-}
+
 .caption{
     margin-top: 1em;
-    margin: auto;
-}
-
-.navbar{
-    width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.navbar ul{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between
 }

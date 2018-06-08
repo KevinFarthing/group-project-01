@@ -1,89 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
     <div id="main">
 
         <!-- HEADER -->
-        <header>
-            <div class="logo">
+        <div class="logo">
+            <a href="index.html">
                 <img src="http://nzalaw.com/images/nza_logo.jpg" alt="">
-            </div>
-            <div class="navbar">
-                <ul>
-                    <li><a href="">Who we are</a></li>
-                    <li><a href="">What we do</a></li>
-                    <li><a href="">News & events</a></li>
-                    <li><a href="">Where we work</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+            </a>
 
-        </header> <!--HEADER END-->
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Who we are</a>
+                </li>
+                <li class="seperator">
+                    <a href="">What we do</a>
+                </li>
+                <li class="seperator">
+                    <a href="news_and_events.html">News & events</a>
+                </li>
+                <li class="seperator">
+                    <a href="">Where we work</a>
+                </li>
+                <li class="seperator">
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
 
         <div class="main-content">
 
-                <div class="sidebar">
-                    <ul>
-                        <li> <a class="sidebar-link"><h4>Contact Us</h4></a> </li>
-                        <li> <a class="sidebar-link">Directions / Parking</a> </li>
-                        <li> <a class="sidebar-link">Career Opportunities</a> </li>
-                        <li> <a><img src="http://nzalaw.com/images/content-navlink-news.jpg"</a></li>
-                        <li> <a class="sidebar-link smaller-text">News & Events</a></li>
-                        <li> <a class="sidebar-link smaller-text">Read the most current</a></li>
-                        <li> <a class="sidebar-link smaller-text">Information about our firm</a></li>
-                    </ul>
-                </div>
-                <div class="content-center">
-                    <img src="http://nzalaw.com/images/content-05-contact.jpg" alt="">
-                    <p>
-                        
-                        The office hours are 8am – 5pm Monday through Friday
+            <div class="content-homepage">
+                <img src="./assets/images/homepage_pic.png" alt="">
+                <p>
+                    <br>
+                    <strong>Welcome to our website!</strong>
+                    <br>
+                    <br> Nielsen, Zehe & Antas, PC is a nationally recognized and respected law firm that offers its clients
+                    big firm experience and talent in a smaller firm environment. Our reputation is very important to us.
+                    We solve our client’s problems in some situations and prevent them all together in other situations.
+                    We welcome you to our website to learn more about us.
 
-                        55 West Monroe Street
-                        Suite 1800
-                        Chicago, Illinois 60603
-
-                        PH:	312.322.9900
-                        FAX:	312.322.9977
-
-                        Contact: Rosemary Panek at rpanek@nzalaw.com                         
+                </p>
+            </div>
+            <div class="sidebar sidebar-homepage">
+                <ul>
+                    <li>
+                        <a class="sidebar-link">
+                            <h4>News Feed</h4>
+                        </a>
+                    </li>
+                    <p class="smaller-text">
+                        Jeffrey Zehe and Frank DeBoni obtained dismissal of their client, a Japanese company, when U.S. District Court for the Eastern
+                        District of Michigan granted their client's MTD challenging personal jurisdiction pursuant to Federal
+                        Rule of Civil Procedure 12(b)(2). Jeffrey Zehe and Frank DeBoni obtained dismissal of two Japanese
+                        corporations after challenging personal jurisdiction in the Circuit Court of Cook County, Law Division.
+                        Robert Lentz settled a building collapse claim in Roswell NM stemming from winter storm Goliath for
+                        policy limits.
                     </p>
-                </div>
-                <div class="content-right">
-                    <ul>
-                        <a href="" class="content-right-link"></a><img src="http://nzalaw.com/images/content-link-where.jpg" alt="">
-                        <div class="caption">
-                            <strong>Where we work</strong>
-                            <p>Find out more about our work coverage area.</p>
-                        </div>
-                        <br>
 
-                        <a href="" class="content-right-link"></a><img src="http://nzalaw.com/images/content-link-reputation.jpg" alt="">
-                        <div class="caption">
-                            <strong>Where we work</strong>
-                            <p>Find out more about our work coverage area.</p>
-                        </div>
-                    </ul>
-                </div>
+
+                    </a>
+                </ul>
+                <p class="smaller-text caption">
+                    <strong>Nielsen, Zehe & Antas, P.C.</strong>
+                    <br> 55 West Monroe Street, Suite 1800
+                    <br> Chicago, Illinois 60603
+                    <br> 312-322-9900 phone
+                    <br> 312-322-9977 fax
+                    <br>
+                    <a class="email" href="">ENielsen@nzalaw.com</a>
+                    <br>
+                </p>
+            </div>
+
         </div>
     </div>
 
 
-    
-<!-- bootstrap js+jquery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+
+    <!-- bootstrap js+jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
