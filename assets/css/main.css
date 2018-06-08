@@ -10,10 +10,10 @@ body{
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.header .container{
+/* #header-box{
     padding-right: 0;
     padding-left: 0;
-}
+} */
 
 .header-nav{
     margin: 10px auto;
