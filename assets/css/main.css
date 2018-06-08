@@ -9,3 +9,22 @@ body{
     box-shadow: 0 0 10px 5px gray;
 
 }
+
+.left.box{
+    position: fixed;
+    padding-left: 10px;
+}
+
+.left-box {
+    text-align: left;
+    margin: 0 auto;
+
+}
+.right-box {
+    width: 900px;
+    z-index: 9;
+    text-align: left;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
