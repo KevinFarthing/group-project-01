@@ -146,3 +146,11 @@ nav a:hover{
 .caption{
     margin-top: 1em;
 }
+.right-box {
+    width: 900px;
+    z-index: 9;
+    text-align: left;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
