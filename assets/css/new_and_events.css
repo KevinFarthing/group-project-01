@@ -75,7 +75,7 @@ nav a:hover{
     display:flex;
     margin: 0;
     justify-content: space-between;
-    padding:0
+    padding:0;
 }
 
 
@@ -84,7 +84,7 @@ nav a:hover{
     margin: 0;
     display:flex;
     justify-content: space-between;
-    padding:0
+    padding:0;
     min-height: 900px;
 }
 
@@ -93,14 +93,17 @@ nav a:hover{
     max-height: 400px;
     color: white;
     width: 225px;
-    padding: 1em;
 
 }
 
 
 .sidebar ul{
+    background: #6B2A28;
+    width: 225px;
     list-style: none;
-    padding:0;
+    padding:1em;
+    color: white;
+    min-height: 350px;
 }
 
 .sidebar p1 {
